@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/Bootstrap/css/bootstrap.min.css">
     <script src="vendor/Bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="vendor/css/mainstyle.css">
+    <link rel="stylesheet" href="vendor/CSS/mainstyle.css">
     <title>Dashboard</title>
 </head>
 
@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-12 col-lg-2 bg-primary" style="height: auto;">sidebar</div>
             <div class="col-12 col-lg-10">
-                <table class="table">
+                <table class="table table-striped table-hover  table-dark">
                     <tr>
                         <th>S.No</th>
                         <th>Name</th>
@@ -29,97 +29,146 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Modan</td>
+                        <td>MadanLal</td>
                         <td>Student</td>
-                        <td><button
+                        <td><button 
+                            type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#DelModal"
                                 style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); cursor: pointer;font-size: 10px;font-weight: 600;height: 25px; width: 60px;border-radius: 2px ;color: white; background-color: brown;">Delete</button>
-                            <button
-                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: rgb(54, 165, 42);">Delete</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#myModal"
+                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: rgb(6, 220, 81)">
+                                Modify
+                            </button>
                         </td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>KhodanLal</td>
+                        <td>Madan</td>
                         <td>Student</td>
                         <td><button
+                            type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#DelModal"
                                 style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: brown;">Delete</button>
-                            <button
-                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: rgb(54, 165, 42);">Delete</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#myModal"
+                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: rgb(6, 220, 81)">
+                                Modify
+                            </button>
                         </td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>Tiwari ji</td>
+                        <td>3</td>
+                        <td>Modan</td>
                         <td>Student</td>
                         <td><button
-                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); cursor: pointer;font-size: 10px;font-weight: 600;height: 25px; width: 60px;border-radius: 2px; color: white; background-color: brown;">Delete</button>
-                            <button
-                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: rgb(54, 165, 42);">Delete</button>
+                            type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#DelModal"
+                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); cursor: pointer;font-size: 10px;font-weight: 600;height: 25px; width: 60px;border-radius: 2px; color: white; background-color: brown;" >Delete</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#myModal"
+                                style="border: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); cursor: pointer;font-size: 10px; font-weight: 600;height: 25px;width: 60px;border-radius: 2px;color: white; background-color: rgb(6, 220, 81)">
+                                Modify
+                            </button>
                         </td>
                     </tr>
-                </table>
 
-                <table class=" table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Email</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>John</td>
-                            <td>Doe</td>
-                            <td>john@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Mary</td>
-                            <td>Moe</td>
-                            <td>mary@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>July</td>
-                            <td>Dooley</td>
-                            <td>july@example.com</td>
-                        </tr>
-                    </tbody>
                 </table>
-                <table class=" table table-hover">
-                    <thead>
-                        <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Email</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>John</td>
-                            <td>Doe</td>
-                            <td>john@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Mary</td>
-                            <td>Moe</td>
-                            <td>mary@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>July</td>
-                            <td>Dooley</td>
-                            <td>july@example.com</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h1>Modal Button</h1>
+                <!-- Button to Open the Modal -->
+                Click Here -> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iModal">
+                    Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Done</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <h4>Data Modified</h4>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="DelModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Done</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <h4>Data Deleted</h4>
+                            </div>
+                            
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal" id="iModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                  
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Modal Heading</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                  
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <form action="">
+                           <label for="name">Name</label> <input type="text">
+                           <button>Submit</button>
+                           
+                          </form>
+                        </div>
+                  
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+                
+
             </div>
+
+
+
         </div>
+
+
+
     </div>
     </div>
-
-
-
-
-
 </body>
 
 </html>
