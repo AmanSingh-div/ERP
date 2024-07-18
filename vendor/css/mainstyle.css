@@ -2,6 +2,37 @@
 .boxcontent{
     margin:5px 0px 5px 0px;
     width:100%;
+    height: auto;
+    /*background-color: #a91818;*/
+}
+.logos{
+
+    width:150px;
     height: 150px;
-    background-color: #a91818;
+}
+.product-img{
+    display: block;
+    margin: auto;
+}
+.product-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.product-des{
+    font-size: 0.8rem;
+    
+}
+.product-mrp{
+text-decoration: line-through;
+font-size:0.9rem
+}
+.product-dis{
+    font-size:0.8rem;
+    color:#08a500;
+}
+.product-price{
+    font-size:1rem;
+    font-weight: 900;
+    line-height: normal;
+
 }
