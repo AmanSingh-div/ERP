@@ -1,40 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/css/mainstyle.css">
-    <script src="vendor/bootstarp/js/bootstrap.min.js"></script>
-    
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
     <title>Dashboard</title>
 </head>
+
 <body>
-    <div class="container-fluid">
-        <div class="row" style="height: 150px;">
+    <div class="container-fluid" style="padding: 0px; margin: 3px; ">
+        <div class="row" style="height: 150px; background-color: rgb(173, 173, 173); align-items: center;">
             <div class="col-12 col-lg-2 col-md-2 ">
                 <img src="img/logofinal.jpg" alt="" class="logos">
             </div>
             <div class="col-12 col-lg-8 col-md-10 ">
                 <h1 class="text-center">VED INSTITUTE OF PHARMACY</h1>
-                <h6 class="text-center">Affiliated to Uttar Pradesh Board of Technical Education, Lucknow, Under the ages of Ved Educational and Welfare Trust, Lucknow</h6>
+                <h6 class="text-center">Affiliated to Uttar Pradesh Board of Technical Education, Lucknow, Under the
+                    ages of Ved Educational and Welfare Trust, Lucknow</h6>
             </div>
-            <div class="col-12 col-lg-2 col-md-12 ">
-                <img src="img/vedgroupsm.jpg" alt="" class="logos">
-            </div>
+
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-2 col-md-2 bg-primary" style="height: auto;">sidebar</div>
-            <div class="col-12 col-lg-10 col-md-10"> 
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-12 col-lg-2 col-md-2 " style="width: 150px;">
+                <div class="offcanvas offcanvas-start" id="demo">
+                    <div class="offcanvas-header">
+                        <h1 class="offcanvas-title">VED INSTITUTE</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body" style="background-color: rgb(44, 114, 225); color: aliceblue;">
+                        <ul>
+                            <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo1"
+                                    style="color: aliceblue; font-size: xx-large;">Home</a></li>
+                            <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo2"
+                                    style="color: aliceblue; font-size: xx-large;">About us</a></li>
+                            <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo3"
+                                    style="color: aliceblue; font-size: xx-large;">Project</a></li>
+                            <li><a href="" data-bs-toggle="collapse" data-bs-target="#demo4"
+                                    style="color: aliceblue; font-size: xx-large;">Contact us</a></li>
+                        </ul>
+                        <div id="demo1" class="collapse">
+                            I Am Home
+                        </div>
+                        <div id="demo2" class="collapse">
+                            I Am about Button
+                        </div>
+                        <div id="demo3" class="collapse">
+                            I Am Project Button
+                        </div>
+                        <div id="demo4" class="collapse">
+                            I am Contact Button
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="container-fluid mt-3">
+                    <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                        ☰
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-10 col-md-10">
                 <div class="row">
                     <div class="col-6 col-lg-3 col-md-4">
-                        <div class="boxcontent"> 
+                        <div class="boxcontent">
                             <div class="card">
-                                <img class="card-img-top product-img" src="img/product/1.jpeg" alt="Card image" style="width: 50%; height: 50%; ;">
+                                <img class="card-img-top product-img" src="img/product/1.jpeg" alt="Card image"
+                                    style="width: 50%; height: 50%; ;">
                                 <div class="card-body">
                                     <p class="product-title">Swisse Collagen + Hyaluronic Acid</p>
-                                    <p class="product-des">Swisse Collagen + Hyaluronic Acid | With Vitamin C & E for Anti-Wrinkle Support | Tablet</p>
-                                    <p> MRP: <span class="product-mrp">1600</span> <span class="product-dis">30% off</span></p>
+                                    <p class="product-des">Swisse Collagen + Hyaluronic Acid | With Vitamin C & E for
+                                        Anti-Wrinkle Support | Tablet</p>
+                                    <p> MRP: <span class="product-mrp">1600</span> <span class="product-dis">30%
+                                            off</span></p>
                                     <p class="product-price">800/-</p>
                                 </div>
                             </div>
@@ -43,38 +87,50 @@
                     <div class="col-6 col-lg-3 col-md-4">
                         <div class="boxcontent">
                             <div class="card">
-                                <img class="card-img-top product-img" src="img/product/3ab53077d4c44f3c9fdbc83d5d3948b0.webp" alt="Card image" style="width: 50%; height: 200px; ;">
+                                <img class="card-img-top product-img"
+                                    src="img/product/3ab53077d4c44f3c9fdbc83d5d3948b0.webp" alt="Card image"
+                                    style="width: 50%; height: 200px; ;">
                                 <div class="card-body">
                                     <p class="product-title">Power Gummies for Jaw-Dropping</p>
-                                    <p class="product-des">Power Gummies for Jaw-Dropping Skin with Vitamin C | Gluten Free</p>
-                                    <p> MRP: <span class="product-mrp">1600</span> <span class="product-dis">30% off</span></p>
+                                    <p class="product-des">Power Gummies for Jaw-Dropping Skin with Vitamin C | Gluten
+                                        Free</p>
+                                    <p> MRP: <span class="product-mrp">1600</span> <span class="product-dis">30%
+                                            off</span></p>
                                     <p class="product-price">900/-</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3 col-md-4">
-                        <div class="boxcontent"> 
+                        <div class="boxcontent">
                             <div class="card">
-                                <img class="card-img-top product-img" src="img/product/85d94e897a59427aadf99eed6ba02caa.webp" alt="Card image" style="width: 50%; height: 225px; ;">
+                                <img class="card-img-top product-img"
+                                    src="img/product/85d94e897a59427aadf99eed6ba02caa.webp" alt="Card image"
+                                    style="width: 50%; height: 225px; ;">
                                 <div class="card-body">
                                     <p class="product-title">Health Plant Based Collagen</p>
                                     <p class="product-des">Eur Health Plant Based Collagen Builder Mix Fruit</p>
-                                    <p> MRP: <span class="product-mrp">1400</span> <span class="product-dis">30% off</span></p>
+                                    <p> MRP: <span class="product-mrp">1400</span> <span class="product-dis">30%
+                                            off</span></p>
                                     <p class="product-price">690/-</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-6 col-lg-3 col-md-4">
-                        <div class="boxcontent"> 
+                        <div class="boxcontent">
                             <div class="card">
-                                <img class="card-img-top product-img" src="img/product/a569ab4a9eb843e9b9890f9965b92027.webp" alt="Card image" style="width: 50%; height: 180px; ;">
+                                <img class="card-img-top product-img"
+                                    src="img/product/a569ab4a9eb843e9b9890f9965b92027.webp" alt="Card image"
+                                    style="width: 50%; height: 180px; ;">
                                 <div class="card-body">
-                                    <p class="product-title">Nature's Island Hydrolysed Marine Collagen with Vitamin C</p>
-                                    <p class="product-des">Nature's Island Hydrolysed Marine Collagen with Vitamin C | For Joints, Skin, Hair & Nails | Flavour Berry Blas</p>
-                                    <p> MRP: <span class="product-mrp">1400</span> <span class="product-dis">30% off</span></p>
+                                    <p class="product-title">Nature's Island Hydrolysed Marine Collagen with Vitamin C
+                                    </p>
+                                    <p class="product-des">Nature's Island Hydrolysed Marine Collagen with Vitamin C |
+                                        For Joints, Skin, Hair & Nails | Flavour Berry Blas</p>
+                                    <p> MRP: <span class="product-mrp">1400</span> <span class="product-dis">30%
+                                            off</span></p>
                                     <p class="product-price">690/-</p>
                                 </div>
                             </div>
@@ -82,7 +138,7 @@
                     </div>
                     <div class="col-6 col-lg-3 col-md-4">
                         <div class="boxcontent">
-                            
+
                         </div>
                     </div>
                     <div class="col-6 col-lg-3 col-md-4">
@@ -99,7 +155,9 @@
         </div>
         <div class="row">
             <div class="col">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quod officiis sapiente veniam odit, suscipit praesentium? Qui enim similique culpa nihil alias ullam ipsam maiores, minima laboriosam, aspernatur ex doloremque.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quod officiis sapiente veniam odit,
+                suscipit praesentium? Qui enim similique culpa nihil alias ullam ipsam maiores, minima laboriosam,
+                aspernatur ex doloremque.
             </div>
         </div>
         <div class="row" style="height: 100px; background-color: rgb(132, 243, 230);">
@@ -107,6 +165,8 @@
             <div class="col-8"></div>
         </div>
     </div>
-    
+
+
 </body>
+
 </html>
