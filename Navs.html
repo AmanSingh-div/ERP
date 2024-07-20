@@ -6,28 +6,140 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="vendor/css/mainstyle.css">
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  
+  
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<div class="container mt-3">
-  <h2>Nav</h2>
-  <p>Basic horizontal menu:</p>
-  <ul class="nav">
+<div>
+    
+  <ul class="nav justify-content-center" style="background-color: rgb(110, 110, 110);">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a style="color: azure;" class="nav-link" href="#" >Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a style="color: azure;" class="nav-link" href="#">Contact Us</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a style="color: azure;" class="nav-link" href="#">About Us</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
+      <a style="color: azure;" class="nav-link disabled" href="#">Support</a>
     </li>
   </ul>
 </div>
+<div>
+    <h2>Vertical navs</h2>
+    <ul class="nav flex-column" style="background-color: rgb(82, 183, 206);">
+      <li class="nav-item">
+        <a style="color: azure;" class="nav-link" href="#" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: azure;" class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: azure;" class="nav-link" href="#">About Us</a>
+      </li>
+    </ul>
+    </div>
+    <div>
+        <h2>Nav Tabs</h2>
+        <ul class="nav nav-tabs" style="background-color: bisque;">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+    </div>
+    <div>
+        <h2>Navs Pills</h2>
+        <ul class="nav nav-pills" style="background-color: aqua;">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          
+    </div>
+    <div>
+        <h2>Pills with Dropdown</h2>
+        <ul class="nav nav-pills" style="background-color: aquamarine;">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+          </li> 
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Dynamic Tabs</h2>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+            </li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane container active" id="home">Home</div>
+            <div class="tab-pane container fade" id="menu1">Menu </div>
+            <div class="tab-pane container fade" id="menu2">Bye Bye</div>
+          </div>
+      </div>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="pill" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
+        </li>
+      </ul>
+      
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">...</div>
+        <div class="tab-pane container fade" id="menu1">...</div>
+        <div class="tab-pane container fade" id="menu2">...</div>
+      </div>
 
 </body>
 </html>
